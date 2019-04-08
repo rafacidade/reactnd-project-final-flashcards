@@ -21,6 +21,9 @@ By finishing a quiz, the app shows the total of questions and how many of them w
 
 Once a day the app reminds the user to study by push notification.
 
+## Tests
+FlashCards was tested on Android devices (Android 9 and Android 7) and on Expo Snack emulator (Android and iOs)
+
 ## Screenshots
 
 ![Alt text](/assets/screenshots/deck-list.png?raw=true)
