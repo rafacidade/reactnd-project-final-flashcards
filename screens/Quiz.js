@@ -98,9 +98,9 @@ class Quiz extends React.Component{
 
     const { question, answer } = cards[card]
 
-    const cardTitle = showQuestion === true ? 'Question' : 'Answer'
-    const cardText = showQuestion === true ? question : answer
-    const toggleCardCaption = showQuestion === true ? 'Show Answer' : 'Show Question'
+    const cardTitle = showQuestion ? 'Question' : 'Answer'
+    const cardText = showQuestion ? question : answer
+    const toggleCardCaption = showQuestion ? 'Show Answer' : 'Show Question'
 
     return(
       <View style={styles.container}>
