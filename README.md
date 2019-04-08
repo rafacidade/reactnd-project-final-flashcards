@@ -20,3 +20,7 @@ The quiz screen shows a question and the user has to press "Show Answer" to chec
 By finishing a quiz, the app shows the total of questions and how many of them were set as "Correct".
 
 Once a day the app reminds the user to study by push notification.
+
+## Screenshots
+
+![Alt text](/assets/screenshots/deck-list.png?raw=true "Deck List")
