@@ -20,9 +20,9 @@ class DeckList extends React.Component{
             <DeckListItem
               title={decks[item.id].title}
               deckId={item.id}
-              totalCards={Object.keys(cards).filter((card) => cards[card].deckId === item.id).length}
-              keyExtractor={(item, index) => index.toString()}
+              totalCards={Object.keys(cards).filter((card) => cards[card].deckId === item.id).length}              
             />
+          keyExtractor={(item, index) => index.toString()}
           )}
         />
       </View>
