@@ -43,11 +43,14 @@ export class NewDeck extends Component {
       title: ''
     })
 
-    this.toHome()
+    this.toDeckDetails(key, title)
   }
 
-  toHome = () => {
-    this.props.navigation.navigate('Home')
+  toDeckDetails = (deckId, title) => {
+    this.props.navigation.navigate('DeckDetails', {
+      deckId,
+      title
+    })
   }
 
   validate = (text) => {
