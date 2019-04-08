@@ -21,9 +21,9 @@ class DeckList extends React.Component{
               title={decks[item.id].title}
               deckId={item.id}
               totalCards={Object.keys(cards).filter((card) => cards[card].deckId === item.id).length}              
-            />
-          keyExtractor={(item, index) => index.toString()}
+            />          
           )}
+          keyExtractor={(item, index) => index.toString()}
         />
       </View>
     )
