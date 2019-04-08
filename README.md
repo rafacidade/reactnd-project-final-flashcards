@@ -7,7 +7,7 @@ This is the thrid and final project for Udacity's React Developer Nanodegree. Th
 
 * install project with `yarn install`
 * run project with `yarn start` to run the app on a device or emulator.
-(the app can also be tested online by uploading the source code to Snack https://snack.expo.io/)
+(the app can also runs online on Snack: https://snack.expo.io/@rafaelcidade/udacity-flashcards)
 
 ## How FlashCards Works
 
