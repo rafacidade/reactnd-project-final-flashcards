@@ -23,4 +23,4 @@ Once a day the app reminds the user to study by push notification.
 
 ## Screenshots
 
-![Alt text](/assets/screenshots/deck-list.png?raw=true "Deck List")
+![Alt text](/assets/screenshots/deck-list.png?raw=true "Deck List" {width=400px})
