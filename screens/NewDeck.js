@@ -47,7 +47,7 @@ export class NewDeck extends Component {
   }
 
   toDeckDetails = (deckId, title) => {
-    this.props.navigation.navigate('DeckDetails', {
+    this.props.navigation.replace('DeckDetails', {
       deckId,
       title
     })
